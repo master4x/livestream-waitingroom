@@ -74,7 +74,7 @@ if (isset($_POST['username'])) {
     </div>
     <?php if($_SESSION[ 'username']): ?>
     <div class="iframebox">
-      <iframe id="player1" src="https://www.youtube-nocookie.com/embed/P2OCJ8b2RxQ?vq=hd1080&autoplay=1&loop=1&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+      <iframe id="player1" src="https://www.youtube-nocookie.com/embed/YOUR_CODE?vq=hd1080&autoplay=1&loop=1&showinfo=0&rel=0&iv_load_policy=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
     </div>
     <?php endif; ?>
   </div>
