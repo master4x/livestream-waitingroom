@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sans-serif;
+    background: #2c3e50;
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 0 auto 30px;
+}
+
+.regbar {
+    height: 67px;
+    background: #34495e;
+}
+
+.navthing {
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #ecf0f1;
+    padding-top: 17px;
+    max-height: 67px;
+}
+
+h2 {
+    color: #ecf0f1;
+}
+
+fieldset {
+    border: none;
+}
+
+.login {
+    position: relative;
+    width: 350px;
+    display: none;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid #ecf0f1;
+    left: 10%;
+    position: absolute;
+    top: -10px;
+}
+
+.formholder {
+    background: #ecf0f1;
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.formholder input[type="name"],
+.formholder input[type="password"] {
+    padding: 7px 5px;
+    margin: 10px 0;
+    width: 96%;
+    display: block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.formholder input[type="name"]:focus,
+.formholder input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+button {
+    background: #1abc9c;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1bc6a4;
+}
+
+.randompad {
+    padding: 10px;
+    z-index: 1;
+}
+
+.green {
+    color: #1abc9c;
+}
+
+.logout {
+    color: #1abc9c;
+    text-align: right;
+}
+
+.textline {
+    position: absolute;
+    top: 19px;
+    left: 68px;
+}
+
+a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1abc9c;
+}
+
+ol {
+   display: block;
+   list-style-type: decimal;
+   line-height: 125%;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: 0;
+   margin-right: 0;
+   padding-left: 40px;
+}
+
+.textbox {
+  text-align: justify;
+  position: absolute;
+  top: 80px;
+  left: 4%;
+  right: 6%;
+  margin-left: auto;
+  color: white;
+  max-height: 95%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+iframe {
+    position: absolute;
+    top: 67;
+    left: 0;
+    z-index: 1;
+    background: none;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 56.25%; /*16:9*/
+}
+
+.iframebox {
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    max-height: 95%;
+    top: 67px;
+    bottom: 25px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.footer {
+position: absolute;
+height: 20px;
+bottom: 0px;
+width: 100%;
+text-align: center;
+font-size: 12px;
+background: #34495e;
+}
+
+p {
+  color: white;
+}
