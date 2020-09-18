@@ -43,7 +43,7 @@ for example:  https://www.youtube.com/watch?v=P2OCJ8b2RxQ  -->  YOUR_CODE will b
 #### License
 This code is under MIT license.
 
-Copyright 2020 github.com/master4x & github.com/TRY-Toxic
+Copyright 2020 github.com/master4x & github.com/T0X7C
 
 ----
 
